@@ -16,8 +16,12 @@ if (detroitGC === true) {
       " and I am a student at Grand Circus in Detroit, Michigan. I am currently " +
       age +
       " years old and my birthday is on " +
-      birthday
+      birthday +
+      "."
   );
-} else (detroitGC === true) {
-    console.log()
 }
+
+console.log(lifeEvents[0]);
+console.log(lifeEvents[1]);
+console.log(lifeEvents[2]);
+console.log(lifeEvents[3]);
