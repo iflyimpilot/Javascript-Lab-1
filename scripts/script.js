@@ -21,7 +21,6 @@ if (detroitGC === true) {
   );
 }
 
-console.log(lifeEvents[0]);
-console.log(lifeEvents[1]);
-console.log(lifeEvents[2]);
-console.log(lifeEvents[3]);
+for (let i = 0; i < lifeEvents.length; i++) {
+  console.log(lifeEvents[i]);
+}
