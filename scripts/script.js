@@ -1,3 +1,4 @@
+//Bullet 1
 let name = "Louie";
 let age = 33;
 let birthday = "November 21";
@@ -9,6 +10,7 @@ const lifeEvents = [
   "I moved to Michigan from New York 6 years ago."
 ];
 
+//Bullet 2
 if (detroitGC === true) {
   console.log(
     "My name is " +
@@ -21,6 +23,34 @@ if (detroitGC === true) {
   );
 }
 
+//Bullet 3
 for (let i = 0; i < lifeEvents.length; i++) {
   console.log(lifeEvents[i]);
+}
+
+//Bullet 4
+let randomNumber = Math.floor(Math.random() * 10 + 1);
+
+console.log(randomNumber);
+
+//Bullet 5
+var counter = 0;
+
+//While loop
+while (counter < 10) {
+  counter++;
+}
+
+console.log(counter);
+
+if (randomNumber != 5) {
+  console.log(randomNumber + "!==5");
+} else randomNumber != 3;
+{
+  console.log(
+    "5 === 5." +
+      " It took " +
+      counter +
+      " iterations to randomly generate the number 5."
+  );
 }
